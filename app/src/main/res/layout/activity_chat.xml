@@ -1,0 +1,138 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF">
+
+    <ScrollView
+        android:id="@+id/r86lcwibmsx"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/ruktwrn6egz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFFFF"
+                android:orientation="horizontal"
+                android:paddingHorizontal="11dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="13dp">
+
+                <ImageButton
+                    android:id="@+id/flecha"
+                    android:layout_width="35dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="11dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/flecha" />
+
+                <ImageView
+                    android:id="@+id/chat_img"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_marginEnd="11dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/ic_launcher" />
+
+                <LinearLayout
+                    android:id="@+id/run8s7u0pq7f"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/chat_nombre"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="6dp"
+                        android:text="Toni Kross"
+                        android:textColor="#1b1a57"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/chat_numero"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7 Online, from 12 peoples"
+                        android:textColor="#4e5d7b"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/rrsg4mrhag"
+                    android:layout_width="4dp"
+                    android:layout_height="15dp"
+                    android:layout_marginTop="16dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/menu" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/r2fw0lab58zy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="39dp"
+                android:layout_marginBottom="40dp"
+                android:orientation="vertical"
+                android:paddingHorizontal="11dp"
+                android:paddingVertical="13dp">
+
+                <ListView
+                    android:id="@+id/chats"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="#D5D4D4"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/chatbar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/mensajeEscrito"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:padding="10dp" />
+
+            <ImageButton
+                android:id="@+id/btn_enviar"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"
+                android:src="@drawable/botonenviar" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

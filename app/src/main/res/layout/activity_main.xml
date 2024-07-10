@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/rv5a5kt17fxk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:orientation="vertical"
+            android:paddingTop="46dp">
+
+            <LinearLayout
+                android:id="@+id/rwdqqme1701"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="14dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/r2geuy1toz3a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/ro629rfu3ny8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="11dp"
+                        android:text="Chats"
+                        android:fontFamily="monospace"
+                        android:textFontWeight="900"
+                        android:textColor="#1B1A57"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/usuario"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:text="usuario"
+                        android:textColor="#1B1A57"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+
+                <ImageView
+                    android:id="@+id/r39uayo0853v"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="220dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/lupa" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rri23807ceif"
+                android:layout_width="396dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginBottom="24dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/raflyp1yy66g"
+                    android:layout_width="56dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="24dp"
+                    android:background="@drawable/dwb2"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:paddingVertical="9dp">
+
+                    <TextView
+                        android:id="@+id/rnx5g1wmnhxo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="All chats"
+                        android:textColor="#FFFFFF"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/rbiciehqpr4e"
+                    android:layout_width="56dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="24dp"
+                    android:background="@drawable/dwb3"
+                    android:elevation="32dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:paddingVertical="9dp">
+
+                    <TextView
+                        android:id="@+id/rxzo32vmbdr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Personal"
+                        android:textColor="#1B1A57"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/r73lg4ixp1hw"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="24dp"
+                    android:background="@drawable/dwb3"
+                    android:elevation="32dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:paddingVertical="9dp">
+
+                    <TextView
+                        android:id="@+id/rm9hl8ce1h3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Work"
+                        android:textColor="#1B1A57"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/r6kccrrvizrr"
+                    android:layout_width="48dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/dwb3"
+                    android:elevation="32dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:paddingVertical="9dp">
+
+                    <TextView
+                        android:id="@+id/rgxejqn3e26u"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Groups"
+                        android:textColor="#1B1A57"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/tresPuntosMenu"
+                    android:layout_width="15dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="65sp"
+                    android:background="#FFFFFF"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/menu"
+                     />
+            </LinearLayout>
+
+
+            <ListView
+                android:id="@+id/listview_mensaje"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+
+        </LinearLayout>
+        <ImageButton
+            android:id="@+id/mas"
+            android:background="@android:color/transparent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:onClick="irAContactos"
+            android:src="@drawable/mas"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/flecha"
+            android:background="@android:color/transparent"
+            android:layout_width="94dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="120dp"
+            android:onClick="irAMain"
+            android:scaleType="fitXY"
+            android:src="@drawable/flecha" />
+
+        <TextView
+            android:id="@+id/ro6ey87fmifn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingRight="5sp"
+            android:text="Contactos"
+            android:textColor="#1B1A57"
+            android:textSize="28sp" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listview_mensaje"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>
